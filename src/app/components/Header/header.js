@@ -1,11 +1,18 @@
-import style from "./style.header"
+"use client";
+import style, { Tagnav, TAgUl } from "./style.header"
 
  export default function Navbar  () {
 
     return (
 
-        <p>
-            teste 2 
-        </p>
+       <Tagnav>
+        <TAgUl>
+        <li>HOME</li>
+        <li>SOBRE </li>
+        <li>SERVICO</li>
+        <li>CONTATO</li>
+        </TAgUl>
+        
+       </Tagnav>
     )
  } 
