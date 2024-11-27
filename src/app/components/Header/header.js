@@ -6,6 +6,12 @@ import style, { Tagnav, TAgUl } from "./style.header"
     return (
 
        <Tagnav>
+
+         <section>
+               <h2>
+                  TECH MTG 
+               </h2>
+         </section>
         <TAgUl>
         <li>HOME</li>
         <li>SOBRE </li>
