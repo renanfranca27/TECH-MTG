@@ -1,5 +1,5 @@
 "use client";
-import style, { Tagnav, TAgUl } from "./style.header"
+import style, { Tagnav, TagSection, TAgUl } from "./style.header"
 
  export default function Navbar  () {
 
@@ -16,7 +16,9 @@ import style, { Tagnav, TAgUl } from "./style.header"
         <li>HOME</li>
         <li>SOBRE </li>
         <li>SERVICO</li>
+        <TagSection>
         <li>CONTATO</li>
+    </TagSection>
         </TAgUl>
         
        </Tagnav>
